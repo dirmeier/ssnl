@@ -1,0 +1,20 @@
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python==3.9.15
+  - pip==22.3.1
+  - pytorch==2.1.0
+  - pip:
+    - absl-py==1.4.0
+    - chex==0.1.83
+    - distrax==0.1.4
+    - dm-tree==0.1.8
+    - jax==0.4.17
+    - jaxlib==0.4.17
+    - ml-collections==0.1.1
+    - optax==0.1.7
+    - pandas==2.0.0
+    - sbi==0.21.0
+    - diffrax==0.4.1
+
